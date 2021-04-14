@@ -39,16 +39,16 @@ window.setInterval(function(){
     spinHour.style.transform = `rotate(${((hours*30)+extra)}deg)`;
     spin.style.transform = `translateX(100%) rotate(${mins*6}deg)`;
 
-    /*
     
     
-    if(dateIS.getHours() == 11 && dateIS.getMinutes() == 6){
+    
+    if(dateIS.getHours() == 9 && dateIS.getMinutes() == 0 && dateIS.getSeconds() == 2){
 
         console.log("Calling DB");
         postdb()
         
     }
-    */
+    
 
 }, 1000);
 
