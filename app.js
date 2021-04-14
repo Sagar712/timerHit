@@ -37,9 +37,11 @@ window.setInterval(function(){
     
     
     spinHour.style.transform = `rotate(${((hours*30)+extra)}deg)`;
-    spin.style.transform = `rotate(${mins*6}deg)`;
+    spin.style.transform = `translateX(100%) rotate(${mins*6}deg)`;
 
     /*
+    
+    
     if(dateIS.getHours() == 11 && dateIS.getMinutes() == 6){
 
         console.log("Calling DB");
