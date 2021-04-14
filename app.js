@@ -42,7 +42,7 @@ window.setInterval(function(){
     
     
     
-    if(dateIS.getHours() == 9 && dateIS.getMinutes() == 0 && dateIS.getSeconds() == 2){
+    if(dateIS.getHours() == 20 && dateIS.getMinutes() == 33 && dateIS.getSeconds() == 2){
 
         console.log("Calling DB");
         postdb()
